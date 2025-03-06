@@ -81,7 +81,7 @@ public class PolygonTransform {
 
 	// WRITE YOUR CODE HERE
         // Scales polygon by the factor 2.
-/*StdDraw.setScale(-5.0, +5.0); 
+StdDraw.setScale(-5.0, +5.0); 
 double[] x = { 0, 1, 1, 0 }; 
 double[] y = { 0, 0, 2, 1 }; 
 double alpha = 2.0; 
@@ -89,10 +89,10 @@ StdDraw.setPenColor(StdDraw.RED);
 StdDraw.polygon(x, y); 
 scale(x, y, alpha); 
 StdDraw.setPenColor(StdDraw.BLUE);
-StdDraw.polygon(x, y);*/
+StdDraw.polygon(x, y);
 
 // Translates polygon by (2, 1).
-/*StdDraw.setScale(-5.0, +5.0); 
+StdDraw.setScale(-5.0, +5.0); 
 double[] x = { 0, 1, 1, 0 }; 
 double[] y = { 0, 0, 2, 1 }; 
 double dx = 2.0, dy = 1.0; 
@@ -100,7 +100,7 @@ StdDraw.setPenColor(StdDraw.RED);
 StdDraw.polygon(x, y); 
 translate(x, y, dx, dy); 
 StdDraw.setPenColor(StdDraw.BLUE);
-StdDraw.polygon(x, y);*/
+StdDraw.polygon(x, y);
 
 
 // Rotates polygon 45 degrees. 
