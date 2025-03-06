@@ -82,37 +82,37 @@ public class PolygonTransform {
 	// WRITE YOUR CODE HERE
         // Scales polygon by the factor 2.
 StdDraw.setScale(-5.0, +5.0); 
-double[] x = { 0, 1, 1, 0 }; 
-double[] y = { 0, 0, 2, 1 }; 
+double[] x1 = { 0, 1, 1, 0 }; 
+double[] y1 = { 0, 0, 2, 1 }; 
 double alpha = 2.0; 
 StdDraw.setPenColor(StdDraw.RED); 
-StdDraw.polygon(x, y); 
-scale(x, y, alpha); 
+StdDraw.polygon(x1, y1); 
+scale(x1, y1, alpha); 
 StdDraw.setPenColor(StdDraw.BLUE);
-StdDraw.polygon(x, y);
+StdDraw.polygon(x1, y1);
 
 // Translates polygon by (2, 1).
 StdDraw.setScale(-5.0, +5.0); 
-double[] x = { 0, 1, 1, 0 }; 
-double[] y = { 0, 0, 2, 1 }; 
+double[] x2 = { 0, 1, 1, 0 }; 
+double[] y2 = { 0, 0, 2, 1 }; 
 double dx = 2.0, dy = 1.0; 
 StdDraw.setPenColor(StdDraw.RED); 
-StdDraw.polygon(x, y); 
-translate(x, y, dx, dy); 
+StdDraw.polygon(x2, y2); 
+translate(x2, y2, dx, dy); 
 StdDraw.setPenColor(StdDraw.BLUE);
-StdDraw.polygon(x, y);
+StdDraw.polygon(x2, y2);
 
 
 // Rotates polygon 45 degrees. 
 StdDraw.setScale(-5.0, +5.0); 
-double[] x = { 0, 1, 1, 0 }; 
-double[] y = { 0, 0, 2, 1 }; 
+double[] x3 = { 0, 1, 1, 0 }; 
+double[] y3 = { 0, 0, 2, 1 }; 
 double theta = 45.0; 
 StdDraw.setPenColor(StdDraw.RED); 
-StdDraw.polygon(x, y); 
-rotate(x, y, theta); 
+StdDraw.polygon(x3, y3); 
+rotate(x3, y3, theta); 
 StdDraw.setPenColor(StdDraw.BLUE);
-StdDraw.polygon(x, y);
+StdDraw.polygon(x3, y3);
 
 
     }
